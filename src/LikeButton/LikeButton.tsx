@@ -13,7 +13,11 @@ const Button = styled.button`
   border-radius: 3px;
 `;
 
-function LikeButton(props) {
+interface Props {
+  name: string;
+}
+
+function LikeButton(props: Props) {
   const [liked, setLiked] = useState(false);
   if (liked) {
     return 'You liked this.';
