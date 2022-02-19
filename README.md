@@ -2,9 +2,9 @@
 
 - React Library
 - Module Bundling (webpack)
-- Cross Browsing (Babel)
-- TypeScript
 - styled-components
+- TypeScript
+- Cross Browsing (Babel)
 - Storybook
 - Jest / React Testing Library
 - ESLint
